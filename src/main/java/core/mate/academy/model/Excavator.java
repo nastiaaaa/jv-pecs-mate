@@ -18,6 +18,10 @@ public class Excavator extends Machine {
         return scoopCapacity;
     }
 
+    public void setScoopCapacity(float scoopCapacity) {
+        this.scoopCapacity = scoopCapacity;
+    }
+
     @Override
     public void doWork() {
         System.out.println("Excavator started to work");

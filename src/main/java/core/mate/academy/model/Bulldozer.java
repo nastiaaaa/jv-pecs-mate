@@ -18,6 +18,10 @@ public class Bulldozer extends Machine {
         return chassisType;
     }
 
+    public void setChassisType(String chassisType) {
+        this.chassisType = chassisType;
+    }
+
     @Override
     public void doWork() {
         System.out.println("Bulldozer started to work");

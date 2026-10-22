@@ -18,6 +18,10 @@ public class Truck extends Machine {
         return openBedSize;
     }
 
+    public void setOpenBedSize(float openBedSize) {
+        this.openBedSize = openBedSize;
+    }
+
     @Override
     public void doWork() {
         System.out.println("Truck started to work");
